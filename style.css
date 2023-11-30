@@ -60,9 +60,18 @@ main img {
   justify-content: space-between;
 }
 
+.section{
+  display:flex;
+  justify-content: left;
+}
 .formside{
   display: flex;
   justify-content: right;
+}
+
+.alternate-background{
+  display:flex;
+  justify-content: center;
 }
 /* -------  Navigation ------- */
 
@@ -142,13 +151,6 @@ image {
   height: 36px;
 }
 
-section#about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
 
 section#download {
   display: flex;
@@ -178,16 +180,8 @@ section#blog {
       flex-direction: row; 
  }
 
- section#about {
-  display: flex;
-  flex-direction: row; 
-}
 
-h2 {
-  display: flex;
-  flex-direction: column; 
-  justify-content: center;
-  align-items: center;
-}
+
+
 
 }
