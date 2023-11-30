@@ -60,6 +60,10 @@ main img {
   justify-content: space-between;
 }
 
+.formside{
+  display: flex;
+  justify-content: right;
+}
 /* -------  Navigation ------- */
 
 header {
