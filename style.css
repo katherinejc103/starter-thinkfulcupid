@@ -51,6 +51,15 @@ main img {
   flex: 2;
 }
 
+.menu {
+  display: flex;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
 /* -------  Navigation ------- */
 
 header {
