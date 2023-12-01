@@ -67,6 +67,7 @@ main img {
 .formside{
   display: flex;
   justify-content: right;
+  flex-direction: column;
 }
 
 .alternate-background{
